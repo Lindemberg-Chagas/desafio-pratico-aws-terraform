@@ -1,0 +1,48 @@
+Etapas do projeto
+
+Utilize Terraform para criar um cluster Kubernetes usando Amazon EKS.
+-usar modules
+
+O cluster deve ter no mínimo dois nós de worker node.
+cluster nodes 02
+
+Desenvolva uma pipeline utilizando GitHub Actions.
+
+A pipeline deve ser executada sempre que houver alteração na base do projeto Terraform.
+github actions
+
+Documente o processo de criação e os requisitos necessários para inicializar e gerenciar o cluster.
+
+Inclua possíveis melhorias no pr
+
+
+
+Entender os requisitos
+
+-Conta na AWS
+
+(usar conta pessoal) ok
+
+-AWS CLI
+
+(configurar) ok
+
+-Terraform
+(ja tenho configurado) ok
+ - criar manisfetos
+    main    
+    variables
+    provider
+    tfvars
+    output
+- Terraform Init
+- Puxar os modules (https://registry.terraform.io/browse/modules?provider=aws) 
+    colocar o version do module
+    terraform init, terraform plan e apply
+      (criado vpc)
+- Add tags
+
+-Github Actions
+
+
+
